@@ -1,0 +1,54 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=League+Spartan&display=swap');
+
+/* 
+  
+  font-family: 'League Spartan', sans-serif; Styles for paragraphs in diferents weights
+*/
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Charis SIL', serif;
+}
+
+p, li, small{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.text-charis{
+  font-family: 'Charis SIL', serif;
+}
+
+.text-league{
+  font-family: 'League Spartan', sans-serif;
+}
+
+/**
+Colors:
+
+color: "#C0E3F4"
+color: "#3284AD"
+color: "#FAC17A"
+color: "#FFD096"
+color: "#AD7E44"
+
+
+*/
+
+.how-it-works img{
+  width: 100px;
+  height: 100px;
+}
+
+.how-it-works .col-lg-6{
+  margin: 20px 0;
+}
+.carousel-cards{
+  overflow: auto;
+  white-space: nowrap;
+}
+.card{
+  width: 250px;
+  display: inline-block;
+  margin: 0 14px;
+  white-space: break-spaces;
+}
