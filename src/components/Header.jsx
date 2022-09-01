@@ -1,5 +1,6 @@
 import imgHero from '../assets/img/img-test.png'
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Header = ({ title, subtitle, btnUrlOne, btnTextOne, btnUrlTwo, btnTextTwo }) => {
     return (
@@ -10,7 +11,7 @@ const Header = ({ title, subtitle, btnUrlOne, btnTextOne, btnUrlTwo, btnTextTwo 
                     <div className="col-lg-6 my-auto">
                         <h1>{title}</h1>
                         <h5 className="text-league">{subtitle}</h5>
-                        <a className="btn btn-success text-league" href={btnUrlOne}>{btnTextOne}</a><a className="btn btn-success text-league mx-1" href={btnUrlTwo}>{btnTextTwo}</a>
+                        <Link className="btn btn-success text-league" to={btnUrlOne}>{btnTextOne}</Link><Link className="btn btn-success text-league mx-1" to={btnUrlTwo}>{btnTextTwo}</Link>
                     </div>
                     {/* TODO: Modificar la imagen del hero */}
                     <div className="col-lg-6">
